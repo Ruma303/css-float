@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: auto;
+  padding: 2rem 5rem;
+  width: 30rem;
+  height: 100%;
+  background-color: bisque;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+div {
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  padding: 1rem;
+  background-color: lightseagreen;
+  color: white;
+}
+
+#div1 {
+    float: left;
+}
+
+#div2 {
+    float: right;
+}
