@@ -8,14 +8,7 @@ main {
   margin: auto;
   padding: 2rem 5rem;
   width: 30rem;
-  height: 100%;
   background-color: bisque;
-}
-
-main::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 p {
@@ -32,9 +25,60 @@ div {
 }
 
 #div1 {
-    float: left;
+  float: left;
 }
 
 #div2 {
-    float: right;
+  float: right;
+}
+
+/* Metodo clearfix */
+/* .clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+ */
+/* metodo overflow */
+/* .clearfix {
+  overflow: auto;
+} */
+
+/* $ clear sui figli */
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  background-color: bisque;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightseagreen;
+  margin: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-both {
+  clear: both;
 }
