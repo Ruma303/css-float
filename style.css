@@ -52,8 +52,8 @@ div {
 
 .container {
   margin: 0 auto;
-  width: 400px;
   background-color: bisque;
+  width: 300px;
 }
 
 .box {
